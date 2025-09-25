@@ -54,16 +54,7 @@
       font-weight: 500;
       padding: 6px 18px;
     }
-<<<<<<< HEAD
-
-
-
-
-
-.image-card {
-=======
     .image-card {
->>>>>>> b2aa854289b3bc4722eab466c05ab87e084f7de8
       position: relative;
       display: inline-block;
       margin: 50px;
@@ -120,11 +111,45 @@
       transform: rotate(-12deg);
       z-index: 0;
     }
-<<<<<<< HEAD
-=======
 
 
->>>>>>> b2aa854289b3bc4722eab466c05ab87e084f7de8
+
+
+    .hero-section {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 50px 0;
+    }
+    .hero-img {
+      border-radius: 150px 150px 0 0;
+      overflow: hidden;
+      max-width: 350px;
+    }
+    .hero-img img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    .hero-text h1 {
+      font-size: 2.8rem;
+      font-weight: 600;
+    }
+    .hero-text p {
+      color: #ccc;
+      font-size: 1rem;
+      margin: 20px 0;
+    }
+    .hero-text a {
+      color: #ccc;
+      text-decoration: none;
+    }
+    .hero-text a:hover {
+      text-decoration: underline;
+    }
+
+
   </style>
 
 
@@ -134,7 +159,7 @@
 <body>
 
   
-  <nav class="navbar navbar-expand-lg bg-light fixed-top shadow-sm">
+  <nav class="navbar navbar-expand-lg fixed-top shadow-sm bg-light">
     <div class="container align-items-center">
       <img src="ai-generated-eagle-logo-design-in-black-style-on-transparant-background-png.webp" alt="" style="width: 10vh;">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
@@ -147,7 +172,7 @@
           <li class="nav-item"><a class="nav-link active" href="index .html">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
           <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
         </ul>
         <div class=" gap-5">
         <img src="facebook-logo-24.png"/>
@@ -168,7 +193,7 @@
           <h1 data-aos="fade-right">ABC</h1>
           <p data-aos="fade-right">Front-end Developer / UI Designer</p>
           <div class="social-icons mt-3">
-         <button type="button" class="btn btn-outline-secondary">Resume</button>
+         <button type="button" class="btn btn-outline-secondary">Contact</button>
           </div>
         </div>
        
@@ -182,20 +207,13 @@
     </div>
   </section>
 
-  
-<<<<<<< HEAD
-
-
 <section class="about-section">
 
 
-=======
+
   
   <section class="about-section">
-
-
->>>>>>> b2aa854289b3bc4722eab466c05ab87e084f7de8
-<div class="row align-items-center container mx-5 py-5">
+<div class="row align-items-center container mx-5 py-5" data-aos="fade-up">
 
 
   <div class="col-lg-6">
@@ -214,42 +232,52 @@
 
 <div class="col-lg-6 px-5 py-5">
       <h2 class="mb-4"><span class="text-danger">About</span> Me</h2>
-      <p class="text-muted" data-aos="fade-zoom-in"
-     data-aos-easing="ease-in-back"
-     data-aos-delay="300"
-     data-aos-offset="0">My Name Aftab Shaikh, and My portfolio is a representation of all that l've 
+      <p class="text-muted">My Name Aftab Shaikh, and My portfolio is a representation of all that l've 
         learned and accomplished as a science and engineering Student Takes design mockups and wireframes and builds them into the actual visible parts of a website or application. .</p>
     </div>
-
-
-
-
 </div>
 
 </section>
 
-  
-  
-  <section id="contact" class="py-5">
-    <div class="container">
-      <h2 class="mb-4">Contact Me</h2>
-      <form>
-        <div class="row">
-          <div class="col-md-6 mb-3">
-            <input type="text" class="form-control" placeholder="Your Name">
-          </div>
-          <div class="col-md-6 mb-3">
-            <input type="email" class="form-control" placeholder="Your Email">
-          </div>
-        </div>
-        <div class="mb-3">
-          <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
-        </div>
-        <button type="submit" class="btn btn-dark">Send Message</button>
-      </form>
-    </div>
-  </section>
 
+
+
+<section class="hero-section container">
+  <div class="row align-items-center">
+   
+    <div class="col-md-6">
+      <h1 data-aos="fade-up" data-aos-delay="200">EXPERIENCE & TECHNOLOGIES</h1>
+
+      <div class="d-flex gap-4">
+      <ul style=" list-style: none;" class="p-0">
+      <li data-aos="fade-up" data-aos-delay="300">✔ Office Automation</li>
+      <li data-aos="fade-up" data-aos-delay="400">✔ Html</li>
+      <li data-aos="fade-up" data-aos-delay="500">✔ CSS</li>
+      <li data-aos="fade-up" data-aos-delay="600">✔ JavaScript</li>
+      </ul>
+
+      <ul style=" list-style: none;" class="p-0">
+      <li data-aos="fade-up" data-aos-delay="300">✔ jQuery</li>
+      <li data-aos="fade-up" data-aos-delay="400">✔ Git & GitHub</li>
+      <li data-aos="fade-up" data-aos-delay="500">✔ Serching Engines Optimize</li>
+      <li data-aos="fade-up" data-aos-delay="600">✔ Responsive website Development</li>
+      
+      </ul>
+      </div>
+
+
+
+    </div>
+
+<div class="col-md-6 text-center">
+      <div class="hero-img mx-auto" data-aos="fade-up" data-aos="fade-up" data-aos-delay="100">
+        <img src="2d94e0a782e7cfc80fbc32e20f46a22b.jpg" alt="Profile image">
+      </div>
+    </div>
+
+
+  </div>
+</section>
  
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
